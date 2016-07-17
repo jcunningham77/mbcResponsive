@@ -167,7 +167,7 @@ so we need portrait and landscape images*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: red;
+    color: #e09f64;
 }
 
 .navbar-inverse {
@@ -294,6 +294,7 @@ aside {
 
 ul {
     list-style-type: none;
+    padding:0px;
 }
 
 li {
