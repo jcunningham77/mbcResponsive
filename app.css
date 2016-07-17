@@ -81,8 +81,8 @@ so we need portrait and landscape images*/
   background-attachment: fixed;
 }
 
-/*might need this for older devices*/
-@media(max-width: 445px){
+/*this is needed for iOS devices - 736 is the width for iPhone 6 S Plus in landscape*/
+@media(max-width: 736px){
   .fixed-attachment{
     background-attachment: scroll;
   }
