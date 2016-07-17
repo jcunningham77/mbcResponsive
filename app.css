@@ -63,7 +63,7 @@ so we need portrait and landscape images*/
 
 /*background images for small viewports (smartphone portrait)*/
 @media (max-width: 445px){
-  
+
     .bridge{
       background-image: url(images/xtraSmallPortraitFullScreenBridge.jpg);
     }
@@ -81,6 +81,13 @@ so we need portrait and landscape images*/
   background-attachment: fixed;
 }
 
+/*might need this for older devices*/
+@media(max-width: 445px){
+  .fixed-attachment{
+    background-attachment: scroll;
+  }
+}
+
 .down-button{
   position:absolute;
   bottom:40px;
@@ -92,12 +99,7 @@ so we need portrait and landscape images*/
   color:white;
 }
 
-/*might need this for older devices*/
-/*@media(max-width: 1024px){
-  .fixed-attachment{
-    background-attachment: scroll;
-  }
-}*/
+
 
 .text-banner {
   text-align: center;
