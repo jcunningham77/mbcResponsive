@@ -47,33 +47,34 @@ so we need portrait and landscape images*/
   
 }
 
+/*default background images for background images*/
+
 .bridge{
-  background-image: url(fullScreenMCE-EBridge-cropped.jpg);
+  background-image: url(images/fullScreenBridge.jpg);
 }
 
-.legs{
-  background-image: url(fashionBackground.jpg);
+.middle{
+  background-image: url(images/fullScreenBagClaim.jpg);
 }
 
-.sitting{
-  background-image: url(fashion-Words.jpg);
+.bottom{
+  background-image: url(images/fullScreenOverheadGateA.jpg);
 }
 
+/*background images for small viewports (smartphone portrait)*/
 @media (max-width: 445px){
-
   
+    .bridge{
+      background-image: url(images/xtraSmallPortraitFullScreenBridge.jpg);
+    }
 
-  .bridge{
-    background-image: url(smPortraitfullScreenMCE-EBridge.jpg);
-  }
+    .middle{
+      background-image: url(images/xtraSmallPortraitGateASterile.jpg);
+    }
 
-  .legs{
-    background-image: url(smFashionPortrait.jpg);
-  }
-
-  .sitting{
-    background-image: url(smPortraitFashion-Words.jpg);
-  }
+    .bottom{
+      background-image: url(images/xtraSmallPortraitGateACustoms.jpg);
+    }
 }
 
 .fixed-attachment {
@@ -294,6 +295,7 @@ ul {
 }
 
 li {
+
     background-repeat: no-repeat;
     background-position: 0px 50%;
     padding-left: 7px;
