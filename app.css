@@ -22,10 +22,29 @@ body {
         top:0;
         bottom:0;
         margin:auto;
-        width:70%;
 
   }
+
+  #large-image {
+    display: none;
+  }
+
+  #small-image {
+    display: block;
+  }
 }
+
+@media (min-width: 506px){
+  #large-image {
+    display: block;
+  }
+
+  #small-image {
+    display: none;
+  }
+}
+
+
 
 .fill-screen {
   
