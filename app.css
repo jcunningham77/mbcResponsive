@@ -69,7 +69,8 @@ so we need portrait and landscape images*/
 /*default background images for background images*/
 
 .bridge{
-  background-image: url(images/fullScreenBridge.jpg);
+  /*background-image: url(images/fullScreenLoops.png);*/
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/fullScreenLoops.png);
 }
 
 .middle{
@@ -84,7 +85,8 @@ so we need portrait and landscape images*/
 @media (max-width: 445px){
 
     .bridge{
-      background-image: url(images/xtraSmallPortraitFullScreenBridge.jpg);
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/xtraSmallPortraitLoops.jpg);
+      position:relative;
     }
 
     .middle{
@@ -116,6 +118,20 @@ so we need portrait and landscape images*/
 
 .down-button i {
   color:white;
+}
+
+.home-text {
+
+  /*color:#f3e1bd;*/
+  color:white;
+  padding-top: 103px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
 }
 
 
