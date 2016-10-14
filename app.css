@@ -85,7 +85,7 @@ so we need portrait and landscape images*/
 @media (max-width: 445px){
 
     .bridge{
-      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/xtraSmallPortraitLoops.jpg);
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/xtraSmallPortraitJetBridge.jpg);
       position:relative;
     }
 
